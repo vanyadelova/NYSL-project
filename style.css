@@ -194,3 +194,44 @@ h3 {
     border: 1px solid black;
 }
 
+@media only screen and (min-width: 360px) {
+    .container {     
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    .container {     
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+     .schedule {     
+        padding: 20px 0px 0px;
+         width: 20px;
+         font-size: 16px;
+         padding: 20px 0px 0px;
+width: 20px;
+font-size: 16px;
+margin: 100px;
+         
+    }
+    
+    .play {
+        padding: 20px 0px 0px;
+         width: 20px;
+         font-size: 16px;
+         padding: 20px 0px 0px;
+width: 20px;
+font-size: 16px;
+margin: 100px;
+        
+    }
+    
+    .rego {
+        padding: 100px;
+    }
+    
+    
+}
